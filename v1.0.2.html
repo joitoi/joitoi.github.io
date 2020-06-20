@@ -518,7 +518,7 @@
                 <div><span data-color="#6DB5FE" class="choice favorite"></span> <span class="legend-text">Favorite</span></div>
                 <div><span data-color="#23FD22" class="choice like"></span> <span class="legend-text">Like</span></div>
                 <div><span data-color="#FDFD6B" class="choice okay"></span> <span class="legend-text">Okay</span></div>
-                <div><span data-color="#DB6C00" class="choice maybe"></span> <span class="legend-text">Maybe</span></div>
+                <div><span data-color="#DB6C00" class="choice maybe"></span> <span class="legend-text">Curious, but no for now</span></div>
                 <div><span data-color="#920000" class="choice no"></span> <span class="legend-text">No</span></div>
             </div>
             <div id="ExportWrapper">
@@ -531,168 +531,115 @@
         </div>
         <div id="EditOverlay" class="overlay">
             <textarea id="Kinks">
-#Bodies
+
+#Sexual
 (General)
-* Skinny
-* Chubby
-* Small breasts
-* Large breasts
-* Small cocks
-* Large cocks
-
-#Clothing
-(Self, Partner)
-* Clothed sex
-* Lingerie
-* Stockings
-* Heels
-* Leather
-* Latex
-* Uniform / costume
-* Cross-dressing
-
-#Groupings
-(General)
-* You and 1 male
-* You and 1 female
-* You and MtF trans
-* You and FtM trans
-* You and 1 male, 1 female
-* You and 2 males
-* You and 2 females
-* Orgy
-
-#General
-(Giving, Receiving)
-* Romance / Affection
-* Handjob / fingering
-* Blowjob
-* Deep throat
+* Being sucked
+* Sucking
+* Cum on face
 * Swallowing
-* Facials
-* Cunnilingus
-* Face-sitting
+* Deepthroat
+* Facefucking
+* Kissing
+* Cuddling
+* Hand jobs (given to self)
+* Hand jobs (giving)
 * Edging
-* Teasing
-* JOI, SI
+* Milking
+* Licking balls
+* Masturbation
+* Rough sex
+* Group sex
 
 #Ass play
 (Giving, Receiving)
-* Anal toys
-* Anal sex, pegging
+* Fucking
+* Anal plugs
+* Dildos
+* Fingering
 * Rimming
 * Double penetration
-* Anal fisting
+* Fisting
 
-#Restrictive
-(Self, Partner)
+#Bondage
+(Self)
+* Rope
+* Tape
+* Plastic wrap
+* Handcuffs
 * Gag
+* Blindfold
+* Chastity cage
+
+#Submission/humiliation
+(Self)
+* Following orders
+* Kneeling
+* Feet licking
+* Boot licking
+* Degrading names
+* Verbal humiliation
 * Collar
 * Leash
-* Chastity
-* Bondage (Light)
-* Bondage (Heavy)
-* Encasement
-
-#Toys
-(Self, Partner)
-* Dildos
-* Plugs
-* Vibrators
-* Sounding
-
-#Domination
-(Dominant, Submissive)
-* Dominant / Submissive
-* Domestic servitude
-* Slavery
-* Pet play
-* DD/lg, MD/lb
-* Discipline
-* Begging
-* Forced orgasm
-* Orgasm control
 * Orgasm denial
-* Power exchange
-
-#No consent
-(Aggressor, Target)
-* Non-con / rape
-* Blackmail / coercion
-* Kidnapping
-* Drugs / alcohol
-* Sleep play
-
-#Taboo
-(General)
-* Incest
-* Ageplay
-* Interracial / Raceplay
-* Bestiality
-* Necrophilia
-* Cheating
-* Exhibitionism
-* Voyeurism
-
-#Surrealism
-(Self, Partner)
-* Futanari
-* Furry
-* Vore
-* Transformation
-* Tentacles
-* Monster or Alien
-
-#Fluids
-(General)
-* Blood
-* Watersports
-* Scat
-* Lactation
-* Diapers
-* Cum play
-
-#Degradation
-(Giving, Receiving)
-* Glory hole
-* Name calling
-* Humiliation
-
-#Touch & Stimulation
-(Actor, Subject)
-* Cock/Pussy worship
-* Ass worship
-* Foot play
-* Tickling
-* Sensation play
-* Electro stimulation
-
-#Misc. Fetish
-(Giving, Receiving)
-* Fisting
-* Gangbang
-* Breath play
-* Impregnation
-* Pregnancy
-* Feminization
-* Cuckold / Cuckquean
+* Pissed on body
+* Pissed on face
+* Pissed in mouth
+* Spit on
+* Faceslapping
+* Written on
+* Temporary tattoos
+* Domestic servitude
+* Used as a footrest
+* Treated like a pet
+* Treated like an object
 
 #Pain
-(Giving, Receiving)
+(Receiving)
 * Light pain
 * Heavy pain
-* Nipple clamps
-* Clothes pins
-* Caning
-* Flogging
-* Beating
 * Spanking
-* Cock/Pussy slapping
-* Cock/Pussy torture
+* Belt
+* Caning
+* Whip
+* Riding crop
+* Nipple clamps
+* Clothespins
+* Ball crushing
+* Ballbusting
+* Ball stretching
+* Weight on balls
+* Post-orgasm torture
+* Tickling
+* Trampling
 * Hot Wax
-* Scratching
-* Biting
-* Cutting                
+
+#Clothing
+(Self, Partner)
+* Boots
+* Leather
+* Latex
+* Jeans
+* Uniform
+* Suit
+* Women clothes
+* Gas masks
+* Diaper
+* Masks/hoods
+* Briefs
+* Boxers
+* Jockstrap
+* Harness
+
+#Roleplay
+(General)
+* Puppy
+* Prisoner/guard
+* Criminal/police
+* Kidnapping
+* Blackmail
+
+
             </textarea>
             <button id="KinksOK">Accept</button>
         </div>
@@ -923,7 +870,7 @@
                             context.fillText(levels[i], x + 15 + (i * 120), 22);
                         }
                     },
-                    setupCanvas: function(width, height, username){
+                    setupCanvas: function(width, height){
                         $('canvas').remove();
                         var canvas = document.createElement('canvas');
                         canvas.width = width;
@@ -942,7 +889,7 @@
                         
                         context.font = "bold 24px Arial";
                         context.fillStyle = '#000000';
-                        context.fillText('Kinklist ' + username, 5, 25);
+                        context.fillText('Kinklist ', 5, 25);
                         
                         inputKinks.drawLegend(context);
                         return { context: context, canvas: canvas };
@@ -990,9 +937,6 @@
                         }
                     },
                     export: function(){
-                        var username = prompt("Please enter your name");
-                        if(typeof username !== 'string') return;
-                        else if (username.length ) username = '(' + username + ')';
                         
                         $('#Loading').fadeIn();
                         $('#URL').fadeOut();
@@ -1097,7 +1041,7 @@
                         
                         var canvasWidth = offsets.left + offsets.right + (columnWidth * numCols);
                         var canvasHeight = offsets.top + offsets.bottom + tallestColumnHeight;
-                        var setup = inputKinks.setupCanvas(canvasWidth, canvasHeight, username);
+                        var setup = inputKinks.setupCanvas(canvasWidth, canvasHeight);
                         var context = setup.context;
                         var canvas = setup.canvas;
                         
